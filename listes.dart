@@ -19,19 +19,11 @@ void main() {
   print(prices.length);
   print(prices);
 
-  // prices.add("5");// impossible d'ajouter une chaîne de caractères à une liste de nombres à virgule flottante, cela générera une erreur de type
+  var planetas = {"Mercury", "Venus", "Earth"};
+  print(planetas);
 
-  /*
-  let us talk about sets in dart, a set is an unordered collection of unique items. It is similar to a list, but it does not allow duplicate values and does not maintain the order of elements. In Dart, you can create a set using the Set class or by using curly braces {}.
-
-
-  */
-
-  var countries = {"Togo", "Benin", "Ghana"};
-  print(countries);
-
-  Set<String> cities = {"Lome", "Cotonou", "Accra"};
-  print(cities);
+  Set<String> paneti = {"Mercury", "Venus", "Earth"};
+  print(paneti);
 
   var planets = <String>{"Mercury", "Venus", "Earth"};
   print(planets);
